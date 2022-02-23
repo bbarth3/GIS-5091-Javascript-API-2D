@@ -1,4 +1,4 @@
-     require(["esri/Map", "esri/views/MapView", "esri/layers/FeatureLayer"], (Map, MapView, FeatureLayer) => {
+     require(["esri/Map", "esri/views/MapView", "esri/widgets/Legend", "esri/layers/FeatureLayer"], (Map, MapView, Legend, FeatureLayer) => {
         const map = new Map({
           basemap: "hybrid"
         });
